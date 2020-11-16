@@ -1,1 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2020-11-16T12:52:59.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" version="13.9.2" etag="hmIQJTTBVV20cC44zKmw" type="github"><diagram id="EJT2IDvRn8PM1mi3ihh7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-16T13:39:11.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="mHlyCPoWNFIPJoLewzno" version="13.9.2" type="github">
+  <diagram id="EJT2IDvRn8PM1mi3ihh7" name="Page-1">
+    <mxGraphModel dx="920" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-22" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=170;tabHeight=50;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="10" width="440" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-7" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=120;tabHeight=50;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="10" width="440" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-1" value="ユーザ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zxWn9Y6e-pgFGb_LhxWL-8" target="zxWn9Y6e-pgFGb_LhxWL-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zxWn9Y6e-pgFGb_LhxWL-8" target="zxWn9Y6e-pgFGb_LhxWL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-8" value="クライアント機器の&lt;br&gt;位置情報を&lt;br&gt;マップで見る" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="135" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-9" value="機器の位置情報を&lt;br&gt;受信する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="135" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zxWn9Y6e-pgFGb_LhxWL-11" target="zxWn9Y6e-pgFGb_LhxWL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-11" value="機器の位置情報を&lt;br&gt;送信する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="135" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zxWn9Y6e-pgFGb_LhxWL-12" target="zxWn9Y6e-pgFGb_LhxWL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-12" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;機器の位置情報&lt;br&gt;&lt;/b&gt;&lt;/font&gt;を取得する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="135" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;機器の位置情報&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;・クライアント名（コンピュータ名など）&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;・一番近いルータのSSID&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="280" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-16" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="zxWn9Y6e-pgFGb_LhxWL-15">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-23" value="クライアント" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="810" y="20" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zxWn9Y6e-pgFGb_LhxWL-24" target="zxWn9Y6e-pgFGb_LhxWL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-24" value="セカンダリルータ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-29" value="" style="endArrow=block;endFill=0;endSize=24;html=1;exitX=0;exitY=0;exitDx=195;exitDy=40;exitPerimeter=0;" edge="1" parent="1" source="zxWn9Y6e-pgFGb_LhxWL-33">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="870" y="510" as="sourcePoint" />
+            <mxPoint x="970" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-30" value="" style="endArrow=block;endFill=0;endSize=24;html=1;" edge="1" parent="1" source="zxWn9Y6e-pgFGb_LhxWL-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1010" y="520" as="sourcePoint" />
+            <mxPoint x="1010" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-31" value="" style="endArrow=block;endFill=0;endSize=24;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zxWn9Y6e-pgFGb_LhxWL-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1150" y="510" as="sourcePoint" />
+            <mxPoint x="1060" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-33" value="Windowsアプリケーション" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=130;tabHeight=40;tabPosition=left;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-34" value="Androidアプリケーション" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=130;tabHeight=40;tabPosition=left;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="880" y="520" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-35" value="Arduinoマイコン" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=130;tabHeight=40;tabPosition=left;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="520" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-36" value="Windowsアプリケーション" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=130;tabHeight=40;tabPosition=left;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zxWn9Y6e-pgFGb_LhxWL-37" value="サーバ" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="80" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
